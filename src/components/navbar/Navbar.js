@@ -24,7 +24,7 @@ const Navbar = () => {
             Find Service Tags
             <img src={dropdown_arrow} alt="dropdown arrow" />
           </button>
-          <button type="button" className="login_btn rounded-sm text-habot_green border-habot_green text-center">
+          <button type="button" className="login_btn text-habot_green text-center">
             Login/Sign Up
           </button>
         </div>
