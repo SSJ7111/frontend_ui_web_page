@@ -20,7 +20,7 @@ const Banner = () => {
           name="text-input"
           placeholder="Search your desired location here"
         />
-        <button className="search_btn border-habot_green bg-habot_green" type="button">
+        <button className="search_btn font-inter border-habot_green bg-habot_green" type="button">
           Search
         </button>
       </div>

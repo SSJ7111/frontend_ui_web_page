@@ -13,7 +13,7 @@ const Navbar = () => {
             alt="habot header logo"
           />{" "}
         </div>
-        <div className="flex inset-y-0 right-0 items-center pr-2">
+        <div className="flex inset-y-0 right-0 items-center gap-2 pr-2">
           <button type="button" className="text_clr text-habot_gray list_item">
             Find Suppliers
           </button>
@@ -24,7 +24,7 @@ const Navbar = () => {
             Find Service Tags
             <img src={dropdown_arrow} alt="dropdown arrow" />
           </button>
-          <button type="button" className="login_btn text-habot_green text-center">
+          <button type="button" className="login_btn font-inter text-habot_green text-center">
             Login/Sign Up
           </button>
         </div>

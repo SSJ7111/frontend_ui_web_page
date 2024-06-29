@@ -20,23 +20,23 @@ const Footer = () => {
               <div className="col-md-3 col-sm-12">
                 <ul>
                   Company
-                  <li className="mt-3">FAQ</li>
-                  <li className="mt-1">About</li>
+                  <li className="mt-3 font-inter">FAQ</li>
+                  <li className="mt-1 font-inter">About</li>
                 </ul>
               </div>
               <div className="col-md-3 col-sm-12">
                 <ul>
                   Terms
-                  <li className="mt-3">Data Privacy</li>
-                  <li className="mt-1">Terms</li>
-                  <li className="mt-1">Accessibility</li>
+                  <li className="mt-3 font-inter">Data Privacy</li>
+                  <li className="mt-1 font-inter">Terms</li>
+                  <li className="mt-1 font-inter">Accessibility</li>
                 </ul>
               </div>
               <div className="col-md-3 col-sm-12">
                 <ul>
                   Related
-                  <li className="mt-3">Find Buyer</li>
-                  <li className="mt-1">Feedback</li>
+                  <li className="mt-3 font-inter">Find Buyer</li>
+                  <li className="mt-1 font-inter">Feedback</li>
                 </ul>
               </div>
             </div>
@@ -45,20 +45,16 @@ const Footer = () => {
           <div className="col-md-3 col-sm-12">
             <div className="flex flex-row justify-center items-start gap-4">
               <span className="link_cover">
-                {" "}
-                <img src={linkedIn_logo} alt="linkedin" />{" "}
+                <img src={linkedIn_logo} alt="linkedin" />
               </span>
               <span className="link_cover">
-                {" "}
-                <img src={x_logo} alt="x" />{" "}
+                <img src={x_logo} alt="x" />
               </span>
               <span className="link_cover">
-                {" "}
-                <img src={meta_logo} alt="meta" />{" "}
+                <img src={meta_logo} alt="meta" />
               </span>
               <span className="link_cover">
-                {" "}
-                <img src={insta_logo} alt="instagram" />{" "}
+                <img src={insta_logo} alt="instagram" />
               </span>
             </div>
           </div>

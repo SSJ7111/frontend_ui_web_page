@@ -26,27 +26,27 @@ const Explore = () => {
           <div className="col-md-6 col-sm-12">
             <div className="flex flex-row mt-4 justify-between gap-4">
               <span className="flex flex-col gap-4">
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Abu Dhabi
                   <span className="side_arrow_red"></span>
                 </button>
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Sharjah & Ajman <span className="side_arrow_red"></span>
                 </button>
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Ras Al Khaimah <span className="side_arrow_red"></span>
                 </button>
               </span>
               <span className="flex flex-col gap-4">
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Dubai
                   <span className="side_arrow_red"></span>
                 </button>
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Fujairah
                   <span className="side_arrow_red"></span>
                 </button>
-                <button className="explore_btn">
+                <button className="explore_btn font-inter">
                   Umm Al Quwain
                   <span className="side_arrow_red"></span>
                 </button>
