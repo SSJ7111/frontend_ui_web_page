@@ -32,9 +32,8 @@ body {
 
 .login_btn {
   font-family: Inter;
-  border: solid #00732f;
+  border: 1px solid #00732f !important;
   border-radius: 5px;
-  border: 1px 0px 0px 0px;
   width: 193.31px;
   height: 50px;
   padding: 12px 20px;
