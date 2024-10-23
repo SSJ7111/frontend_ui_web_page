@@ -5,7 +5,7 @@ const Explore = () => {
   return (
     <div className="container gap-4">
       <div className="grid">
-        <div className="row py-20 px-10">
+        <div className="row py-20 px-10 sm:gap-4">
           <div className="col-md-6 col-sm-12">
             <div className="flex flex-col gap-4">
               <h2 className="explore_heading">
@@ -24,7 +24,7 @@ const Explore = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-            <div className="flex flex-row mt-4 justify-between gap-4">
+            <div className="flex flex-row sm:flex-wrap mt-4 justify-between gap-4">
               <span className="flex flex-col gap-4">
                 <button className="explore_btn font-inter">
                   Abu Dhabi

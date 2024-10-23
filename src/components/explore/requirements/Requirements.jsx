@@ -5,7 +5,7 @@ import checkMark from "../../../Assets/checked_list.svg";
 const Requirements = () => {
   return (
     <div className="container grid bg-habot_blue rounded-5 w-max h-max py-20 px-10">
-      <div className="row lg:ms-5 md:ms-5 sm:ms-2 justify-center items-center place-items-center ">
+      <div className="row lg:ms-5 md:ms-5 sm:ms-2 justify-center gap-4 px-4 py-20 items-center sm:flex-wrap">
         <div className="col-md-6 col-sm-12">
           <IframeComponent />
         </div>

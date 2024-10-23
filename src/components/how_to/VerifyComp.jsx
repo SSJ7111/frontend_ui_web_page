@@ -28,7 +28,7 @@ const VerifyComp = () => {
           </p>
         </div>
         <div className="grid place-content-center mt-20 mb-10">
-          <div className="row">
+          <div className="row justify-center">
             <div className="col-4 col-md-4 col-sm-12 blue_card">
               <img src={user_icon} alt="user icon" />
               <p className="card_p">Select Your Role and Sign Up</p>
@@ -44,7 +44,7 @@ const VerifyComp = () => {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row justify-center">
             <div className="col-4 items-center justify-center col-md-4 col-sm-12 white_card">
               <img src={notification_icon} alt="" />
               <p className="card_p">
