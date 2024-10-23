@@ -24,7 +24,7 @@ const Explore = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-            <div className="flex flex-row sm:flex-wrap mt-4 justify-between gap-4">
+            <div className="flex flex-row xs:flex-wrap mt-4 justify-between gap-2">
               <span className="flex flex-col gap-4">
                 <button className="explore_btn font-inter">
                   Abu Dhabi
