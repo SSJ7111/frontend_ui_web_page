@@ -21,7 +21,7 @@ const Requirements = () => {
           <ul className="flex justify-start gap-4 mb-6">
             <li className="flex-1">
               <button
-                className={`w-full py-2 px-4 rounded transition ${
+                className={`w-full py-2 px-4 transition ${
                   activeTab === "buyers" ? "active_btn" : "non_active_btn"
                 } non_active_btn hover:active_btn`}
                 onClick={() => handleTabClick("buyers")}
@@ -31,7 +31,7 @@ const Requirements = () => {
             </li>
             <li className="flex-1">
               <button
-                className={`w-full py-2 px-4 rounded transition ${
+                className={`w-full py-2 px-4 transition ${
                   activeTab === "suppliers" ? "active_btn" : "non_active_btn"
                 } non_active_btn hover:active_btn`}
                 onClick={() => handleTabClick("suppliers")}
