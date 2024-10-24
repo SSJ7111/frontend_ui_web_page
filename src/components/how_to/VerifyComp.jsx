@@ -9,62 +9,64 @@ import connect_icon from "../../Assets/connect_icon.svg";
 const VerifyComp = () => {
   return (
     <div>
-      <div className="verify_bg my-20">
-        <div className="container h-full flex items-center py-8 justify-between gap-12 sm-flex-wrap">
-          <h3 className="heading_three">
-            Let Suppliers
-            <span className="border-b-4 border-habot_red"> Find You </span>
+      <div className="flex verify_bg h-64 w-full py-8 justify-center items-center my-20">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6 px-6 md:px-12">
+          <h3 className="text-3xl font-bold text-center md:text-left">
+            Let Suppliers{" "}
+            <span className="border-b-4 border-habot_red">Find You</span>
           </h3>
-          <button className="verify_btn bg-habot_red">Get Verified</button>
+          <button className="bg-habot_red verify_btn rounded-sm px-6 py-2">
+            Get Verified
+          </button>
         </div>
       </div>
-      <div className="container">
-        <div className="flex flex-col justify-center items-center gap-4 my-10">
-          <h4 className="heading_four">How it works?</h4>
-          <p className="four_p">
+
+      <div className="container mx-auto px-6 md:px-12">
+        <div className="text-center my-10">
+          <h4 className="text-2xl font-semibold">How it works?</h4>
+          <p className="mt-4 text-gray-600">
             Buyers post their needs and review top suppliers, while suppliers
             complete profiles, connect with potential buyers, and build
             successful business relationships, sharing valuable feedback.
           </p>
         </div>
-        <div className="grid place-content-center mt-20 mb-10">
-          <div className="row justify-center">
-            <div className="col-4 col-md-4 col-sm-12 blue_card">
-              <img src={user_icon} alt="user icon" />
-              <p className="card_p">Select Your Role and Sign Up</p>
-            </div>
-            <div className="col-4 items-center justify-center col-md-4 col-sm-12 white_card">
-              <img src={document_icon} alt="" />
-              <p className="card_p">Buyers Post Your Requirements</p>
-            </div>
-            <div className="col-4 items-center justify-center col-md-4 col-sm-12 blue_card">
-              <img src={review_icon} alt="" />
-              <p className="card_p">
-                Review, Select, and Contact the Best Suppliers
-              </p>
-            </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10">
+          <div className="card-bg h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={user_icon} alt="user icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Select Your Role and Sign Up
+            </p>
           </div>
-          <div className="row justify-center">
-            <div className="col-4 items-center justify-center col-md-4 col-sm-12 white_card">
-              <img src={notification_icon} alt="" />
-              <p className="card_p">
-                {" "}
-                Suppliers Complete your profile and get notified for
-                opportunities
-              </p>
-            </div>
-            <div className="col-4 items-center justify-center col-md-4 col-sm-12 blue_card">
-              <img src={quote_icon} alt="" />
-              <p className="card_p">
-                Contact to Buyers and Share your Quote for the service
-              </p>
-            </div>
-            <div className="col-4 items-center justify-center col-md-4 col-sm-12 white_card">
-              <img src={connect_icon} alt="" />
-              <p className="card_p">
-                Both the Parties can Connect and Make Business Leave a Feedback
-              </p>
-            </div>
+          <div className="bg-white h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={document_icon} alt="document icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Buyers Post Your Requirements
+            </p>
+          </div>
+          <div className="card-bg h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={review_icon} alt="review icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Review, Select, and Contact the Best Suppliers
+            </p>
+          </div>
+          <div className="bg-white h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={notification_icon} alt="notification icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Suppliers Complete Your Profile and Get Notified for Opportunities
+            </p>
+          </div>
+          <div className="card-bg h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={quote_icon} alt="quote icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Contact Buyers and Share Your Quote for the Service
+            </p>
+          </div>
+          <div className="bg-white h-64 w-full flex flex-col justify-center items-center p-6">
+            <img src={connect_icon} alt="connect icon" className="w-12 h-12 mb-4" />
+            <p className="text-center font-medium">
+              Both Parties Can Connect and Do Business; Leave Feedback
+            </p>
           </div>
         </div>
       </div>

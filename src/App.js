@@ -1,32 +1,23 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React from "react";
 import Navbar from "./components/navbar/Navbar";
-import "./App.css";
 import Banner from "./components/header/Banner";
 import Explore from "./components/explore/Explore";
 import VerifyComp from "./components/how_to/VerifyComp.jsx";
 import Footer from "./components/footer/Footer.jsx";
-// import {useEffect, useSate} from "react";
-// import axios from "axios";
+import "./App.css";
 
 function App() {
-
-//   const [data, setData] = useSate([]);
-
-//   useEffect(() => {
-//     const fetData =  async ()=>{
-//       const response = await axios.get("url");
-//       setData(response.data)
-//     }
-//     fetData()
-// }, [])
-
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
+
       <Navbar />
-      <Banner />
-      <Explore />
-      <VerifyComp />
+
+      <main className="flex-grow">
+        <Banner />
+        <Explore />
+        <VerifyComp />
+      </main>
+
       <Footer />
     </div>
   );

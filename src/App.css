@@ -248,8 +248,12 @@ body {
 
 .verify_bg {
   background: #e8fbff;
-  height: 254px;
-  width: 100%;
+  /* height: 254px;
+  width: 100%; */
+}
+
+.card-bg {
+  background-color: #e8fbff;
 }
 
 .heading_three {
@@ -260,16 +264,16 @@ body {
 }
 
 .verify_btn {
-  width: 216px;
-  height: 54px;
-  padding: 0px 52px;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: center;
   color: #ffffff;
-  background-color: #e7760d;
+}
+
+.non_active_btn{
+  color: #ffffff;
+}
+
+.active_btn{
+  color: #e7760d;
+  border-bottom: 1px solid #e7760d;
 }
 
 .span_bottom {
